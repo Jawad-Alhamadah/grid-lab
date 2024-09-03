@@ -50,9 +50,9 @@ grid-row: auto auto;
     background-color: rgb(60, 0, 255) ;
     display: grid;
 
-    grid-template-areas: 'green green pale pale blue'
-                         'green green pale-2 red red'
-                         'yellow yellow pale-2 red red';
+    grid-template-areas: 'pale-1 pale-2 pale-2 pale-3 pale-3'
+                         'blue blue  pale-4 pale-3 pale-3'
+                         'blue blue pale-4 pale-5 pale-5';
 }
 
 .container-4{
@@ -138,11 +138,13 @@ grid-row: auto auto;
     align-items: end;
     justify-content: end;
     padding-bottom: 10px;
+    background-color: #f7e9a0;
 }
 
 .container-2-item2{
     grid-area: pale;
     background-color: #fcf4d0;
+    
     display: grid;
     align-items: end;
     justify-content: end;
@@ -151,7 +153,7 @@ grid-row: auto auto;
 
 .container-2-item3{
     grid-area: blue;
-    background-color: #c5d9d9;
+    background-color: #f8d9c5;
     display: grid;
     align-items: end;
     justify-content: end;
@@ -160,8 +162,8 @@ grid-row: auto auto;
 
 .container-2-item4{
     grid-area: yellow;
-
-    background-color: #f7e9a0;
+    background-color: #fcf4d0;
+ 
 
     display: grid;
     align-items: end;
@@ -171,8 +173,8 @@ grid-row: auto auto;
 
 .container-2-item5{
     grid-area: pale-2;
-    background-color: #fcf4d0;
-
+   
+    background-color: #c5d9d9;
     display: grid;
     align-items: end;
     justify-content: end;
@@ -180,8 +182,83 @@ grid-row: auto auto;
 }
 .container-2-item6{
     grid-area: red;
+    background-color: #fcf4d0;
+   
 
-    background-color: #f8d9c5;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container-3-item1{
+    grid-area: pale-1;
+    background-color: #fcf4d0;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+  
+}
+
+.container-3-item2{
+    grid-area: pale-2;
+    background-color: #fcf4d0;
+    
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-3-item3{
+    grid-area: pale-3;
+    background-color: #fcf4d0;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-3-item4{
+    grid-area: blue;
+    
+    background-color: #c5d9d9;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-3-item5{
+    grid-area: pale-4;
+    background-color: #fcf4d0;
+  
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.container-3-item6{
+    grid-area: pale-5;
+    background-color: #fcf4d0;
+   
 
     display: grid;
     align-items: end;
