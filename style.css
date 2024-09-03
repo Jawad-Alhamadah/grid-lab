@@ -59,9 +59,10 @@ grid-row: auto auto;
     background-color: rgb(190, 0, 161) ;
     display: grid;
 
-    grid-template-areas: 'green green pale pale blue'
-                         'green green pale-2 red red'
-                         'yellow yellow pale-2 red red';
+    
+    grid-template-areas: 'pale-1 pale-2 pale-2 pale-3 pale-3'
+                         'blue blue  pale-4 pale-3 pale-3'
+                         'blue blue pale-4 pale-5 pale-5';
     
 }
 
@@ -267,6 +268,72 @@ grid-row: auto auto;
 }
 
 
+
+
+
+
+
+
+
+.container-4-item1{
+    grid-area: pale-1;
+    background-color: #f8d9c5;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+  
+}
+
+.container-4-item2{
+    grid-area: pale-2;
+    background-color: #fcf4d0;
+    
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-4-item3{
+    grid-area: pale-3;
+    background-color: #f7e9a0;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-4-item4{
+    grid-area: blue;
+    
+    background-color: #ccddbb;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-4-item5{
+    grid-area: pale-4;
+    background-color: #fcf4d0;
+  
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.container-4-item6{
+    grid-area: pale-5;
+    background-color: #fcf4d0;
+   
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
 
 
 
