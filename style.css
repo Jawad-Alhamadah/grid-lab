@@ -1,0 +1,201 @@
+.container-outer{
+    display: grid;
+width: 100%;
+height: 100vh;
+
+grid-template-columns: auto auto;
+grid-row: auto auto;
+}
+
+.container-1{
+    background-color: red ;
+    display: grid;
+ 
+    grid-template-areas: 'green green pale pale blue'
+                         'green green pale-2 red red'
+                         'yellow yellow pale-2 red red';
+}
+
+.container-1 >div{
+   border: 1px dashed rgb(34, 34, 34);
+   display: grid;
+}
+
+.container-2 >div{
+    border: 1px dashed rgb(34, 34, 34);
+    display: grid;
+ }
+
+ .container-3 >div{
+    border: 1px dashed rgb(34, 34, 34);
+    display: grid;
+ }
+
+ .container-4 >div{
+    border: 1px dashed rgb(34, 34, 34);
+    display: grid;
+ }
+
+.container-2{
+    background-color: rgb(0, 151, 15) ;
+    display: grid;
+
+    grid-template-areas: 'green green pale pale blue'
+                         'green green pale-2 red red'
+                         'yellow yellow pale-2 red red';
+}
+
+
+.container-3{
+    background-color: rgb(60, 0, 255) ;
+    display: grid;
+
+    grid-template-areas: 'green green pale pale blue'
+                         'green green pale-2 red red'
+                         'yellow yellow pale-2 red red';
+}
+
+.container-4{
+    background-color: rgb(190, 0, 161) ;
+    display: grid;
+
+    grid-template-areas: 'green green pale pale blue'
+                         'green green pale-2 red red'
+                         'yellow yellow pale-2 red red';
+    
+}
+
+
+.container-1-item1{
+    grid-area: green;
+    background-color: #ccddbb;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-1-item2{
+    grid-area: pale;
+    background-color: #fcf4d0;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-1-item3{
+    grid-area: blue;
+    background-color: #c5d9d9;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-1-item4{
+    grid-area: yellow;
+
+    background-color: #f7e9a0;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-1-item5{
+    grid-area: pale-2;
+    background-color: #fcf4d0;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.container-1-item6{
+    grid-area: red;
+
+    background-color: #f8d9c5;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+.container-2-item1{
+    grid-area: green;
+    background-color: #ccddbb;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-2-item2{
+    grid-area: pale;
+    background-color: #fcf4d0;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-2-item3{
+    grid-area: blue;
+    background-color: #c5d9d9;
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-2-item4{
+    grid-area: yellow;
+
+    background-color: #f7e9a0;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+.container-2-item5{
+    grid-area: pale-2;
+    background-color: #fcf4d0;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+.container-2-item6{
+    grid-area: red;
+
+    background-color: #f8d9c5;
+
+    display: grid;
+    align-items: end;
+    justify-content: end;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
